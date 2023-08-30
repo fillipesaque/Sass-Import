@@ -1,0 +1,12 @@
+// Import colors.scss
+@import "./colors/colors.scss"; // Importante hierarquia do arquivo com as variaveis
+
+//Import home.scss
+@import "./pages/home.scss";
+
+//Import Body
+@import "./Body/body.scss";
+
+/* Importe no Sass pode ter varios arquivos de sass desde que importe para o arquivo 'principal'
+    que esta sendo monitorado e tomar cuidado com a hierarquia dos arquivos
+*/
